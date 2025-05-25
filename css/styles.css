@@ -1,7 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     background-color: white;
-    color: #2e2f42;
+    color: #434455;
 }
 
 ul, ol {
@@ -23,13 +23,15 @@ header nav .link {
 
 .logo {
     font-family: "Raleway", sans-serif;
-    text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 18px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #4d5ae5;
+
 }
+
 
 .logo .web {
     color: #2e2f42;
@@ -45,9 +47,11 @@ nav .link:focus {
 }
 
 .address .link {
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-decoration: none;
 }
 
 .address .link:hover,
@@ -77,6 +81,11 @@ nav .link:focus {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
 }
 
 /* section 2 */
@@ -165,22 +174,25 @@ nav .link:focus {
 
 /* footer */
 
-footer {
+.foot {
     background-color: #2E2F42;
 }
 
-footer p{
-    color: white;
+.foor .paragraph{
+    color: #F4F4FD;;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-footer .logo {
+.foot .logo {
     color: #4d5ae5;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
-footer .logo .web {
-    color: white;
+.foot .logo .web {
+    color: #f4f4fd;
 }
