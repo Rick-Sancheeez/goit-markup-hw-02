@@ -16,10 +16,12 @@ a {
 header {
     background-color: white;
 }
+
 .logo {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
 }
+
 .logo .web {
     color: #4d5ae5;
 }
@@ -139,3 +141,18 @@ button {
 
 /* footer */
 
+footer {
+    background-color: #2E2F42;
+}
+
+footer p{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+footer .logo {
+    color: white;
+}
