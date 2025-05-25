@@ -1,0 +1,141 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+    color: black;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-color: white;
+}
+.logo {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+}
+.logo .web {
+    color: #4d5ae5;
+}
+
+nav .link:hover,
+nav .link:focus {
+    color: #4D5AE5;
+}
+
+address {
+    font-style: normal;
+}
+
+address .link:hover,
+address .link:focus {
+    color: #4D5AE5;
+}
+
+/* main */
+.sec-main {
+    background-color: #2E2F42;
+}
+
+h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+button {
+    color: white;
+    background-color: #404BBF;
+    cursor: pointer;
+}
+
+/* section 2 */
+
+.qualities h3 {
+    font-weight: 500;
+    font-size:20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.qualities p {
+    font-weight: 400;
+    font-size: 16px; 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* section "Our Team" */
+
+.our-team {
+    background-color: #F4F4FD;
+}
+
+.our-team h2 {
+    font-weight: 700;
+    font-size: 36px; 
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.our-team h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    
+}
+
+.our-team p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.our-team li {
+    background-color: white;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+}
+
+/* Our portfolio */
+
+.portfolio h2 {
+    font-weight: 700;
+    font-size: 36px; 
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.portfolio h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.portfolio p {
+    font-weight: 400;
+    font-size: 16px; 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* footer */
+
